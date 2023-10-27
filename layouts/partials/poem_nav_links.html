@@ -1,4 +1,4 @@
-{{- $pages := where site.RegularPages "Section" "posts" }}
+{{- $pages := where site.RegularPages "Section" "poetry" }}
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
 <nav class="paginav">
   {{- with $pages.Next . }}
